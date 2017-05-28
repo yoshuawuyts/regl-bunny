@@ -1,0 +1,27 @@
+{
+  "name": "regl-bunny",
+  "version": "1.0.0",
+  "description": "lil bunny regl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bankai start ."
+  },
+  "browserify": {
+    "transform": [
+      "glslify/transform"
+    ]
+  },
+  "keywords": [],
+  "author": "Yoshua Wuyts <yoshuawuyts@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bankai": "^7.6.2"
+  },
+  "dependencies": {
+    "bunny": "^1.0.1",
+    "glslify": "^6.0.2",
+    "regl": "^1.3.0",
+    "regl-camera": "^2.1.1"
+  }
+}

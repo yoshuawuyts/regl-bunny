@@ -1,5 +1,5 @@
 # bunny
-lil bunny regl
+lil bunny regl on a choo
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)

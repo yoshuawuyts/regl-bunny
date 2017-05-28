@@ -4,19 +4,21 @@
   "description": "lil bunny regl",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bankai build .",
+    "test": "standard",
     "start": "bankai start ."
   },
   "browserify": {
     "transform": [
-      "glslify/transform"
+      "glslify"
     ]
   },
   "keywords": [],
   "author": "Yoshua Wuyts <yoshuawuyts@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "bankai": "^7.6.2"
+    "bankai": "^7.6.2",
+    "standard": "^10.0.2"
   },
   "dependencies": {
     "bunny": "^1.0.1",
